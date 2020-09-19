@@ -6,6 +6,7 @@ import {Amazon} from './amazon';
 import {MicroCenter} from './microcenter';
 import {Config} from '../../config';
 import {Nvidia} from './nvidia';
+import {Officedepot} from './officedepot';
 
 const masterList = new Map([
 	['amazon', Amazon],
@@ -14,7 +15,8 @@ const masterList = new Map([
 	['evga', Evga],
 	['microcenter', MicroCenter],
 	['newegg', NewEgg],
-	['nvidia', Nvidia]
+	['nvidia', Nvidia],
+	['officedepot', Officedepot]
 ]);
 
 const list = new Map();
